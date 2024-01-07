@@ -1,0 +1,18 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Transaction {
+
+    int contagem;
+
+    function pegaContagem() public view returns (int) {
+        return contagem;
+    }
+
+    function incrementa(int _incrementador, int _incrementador2) public returns (int) {
+    contagem = contagem + _incrementador + _incrementador2;
+    return contagem;
+}  
+
+
+}
