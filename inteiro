@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.8.2 <0.9.0;
+
+contract inteiro {
+    uint8 valor = 255;
+    int8 valorinteiro = 127;
+    int8 valornegativo = -128;
+    uint256 valogrande = 12325485673541321;
+
+}
