@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.23;
+
+contract Construtor {
+    string public name;
+    string public constant secondname = "Bruno";
+    uint public immutable valor;
+
+    constructor(string memory _name) {
+        name =  _name;
+        valor = 30;
+    }
+
+}
